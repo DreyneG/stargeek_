@@ -1,0 +1,33 @@
+.aviso{
+    height: 300px;
+    width: 450px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(23, 23, 23);
+    color: white;
+    left: 32.5%;
+    top: 30%;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+}
+.aviso button{
+    background: rgb(17, 17, 17);
+    color:rgb(190, 190, 190) ;
+    border: none;
+    width: 100px;
+    height: 50px;
+    margin: 30px 30px 30px 15px;
+    transition: 300ms ease-in all
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.aviso button:hover{
+    cursor: pointer;
+    background: rgb(7, 119, 194);
+}
